@@ -4,8 +4,8 @@ import 'dotenv/config'
 const app = express()
 app.use(express.json())
 
-import auth from './routes/auth'
-import user from './routes/user'
+import auth from './routes/auth.js'
+import user from './routes/user.js'
 
 app.use('/auth', auth)
 app.use('/user', user)
