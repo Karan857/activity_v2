@@ -15,7 +15,7 @@ import section from './routes/section.js'
 import status from './routes/status.js'
 import student from './routes/student.js'
 import teacher from './routes/teacher.js'
-import forgotPassword from './routes/forgotPassword.js'
+// import forgotPassword from './routes/forgotPassword.js'
 
 app.use('/auth', auth)
 app.use('/user', user)
