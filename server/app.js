@@ -28,7 +28,7 @@ app.use('/section', section)
 app.use('/status', status)
 app.use('/student', student)
 app.use('/teacher', teacher)
-app.use('/forgotPassword', forgotPassword)
+// app.use('/forgotPassword', forgotPassword)
 
 
 const port = process.env.PORT || 3000;
